@@ -1,0 +1,255 @@
+<html>
+  <head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/60a165d566.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      <div class ="combination">
+        <div class="header-text">
+          <p>Aspiring Software Engineer</p>
+          <h1>Hi, I'am <span>Sathish</span><br /> Chinnolla From Hyderabad</h1>
+          </div>
+         <div >
+          <img src="images/img.png" class="bg_img">
+        </div>
+      </div>
+      </div>
+    </div>
+<!-- ------------- about -----------  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <div class="IMG">
+
+                <img  src="images/sathish.png"/>
+
+            </div>
+            <div class="sub">
+               <h1 class="sub-title">About Me</h1>
+            </div>
+          </div>
+          <div class="about-col-2">
+            <!-- <h1 class="sub-title">About Me</h1> -->
+            <p>
+              I'm Sathish Chinnolla, and I'm excited to welcome you to my corner of the web. I'm passionate about Software and Web Development, and I've dedicated this space to sharing insights, knowledge, and experiences related to it. With a background in [Computer Science and Engineering], I aim to provide valuable content that hepls to grow your business efficiently. When I'm not diving into software industry, I enjoy exploring new technologies, tinkering with electronics, and staying active through outdoor activities like hiking and cycling. I'm also an avid reader of science fiction and love experimenting with new recipes in the kitchen. Feel free to connect with me through linkedin, whatsapp or other social media platform that i have mentioned in the contacts, and I hope you find inspiration and information here.
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+              <div class="tab-links" onclick="opentab('experince')">Experience</div>
+              <div class="tab-links" onclick="opentab('education')">Education</div>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span><strong>Languages:</strong> Java, python, C/C++, JavaScript, SQL</span><br />Problem Sloving/Software Development</li>
+                <li><span><strong>Web Technologies:</strong>HTML, CSS(Bootstrap), React.js, Node.js</span><br />Web development</li>
+                <li><span><strong>Databases:</strong>MySql</span><br /> Database Management</li>
+                <li><span><strong>Version Control:</strong>Git/GitHub</span><br />Tracking Changes to File</li>
+                <li><span><strong>Developer Tools:</strong>VSCode, Eclipse,Jupyter Notebook, Google Colaboratory</span><br />Developing Applications</li>
+                  <li><span><strong>Opearatin Systems:</strong>Windows 7,8,10,11, Ubantu</span><br /></li>
+
+              </ul>
+
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020 - 2024</span><br />B.tech - JNTUH College of Engineering Sulthanpur -7.86 CGPA</li>
+                <li><span>2018 - 2020</span><br />Intermediate-SR Junior College - 97%</li>
+                <li><span>2018</span><br />Secondary School-Gangavidhaynikethan High School - 9.8 GPA</li>
+              </ul>
+
+            </div>
+            <div class="tab-contents" id="experince">
+              <ul>
+                <li><span>June-August</span><br />Web Development Intern - IBM</li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+<!-------Services----------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-brands fa-uncharted"></i>
+        <h2>Software Development</h2>
+        <p> I specialize in crafting custom software solutions that cater to your unique needs. With expertise in programming languages like C, C++, Java, and Python, I build robust, efficient, and user-friendly applications. Whether you're looking for web, desktop, or mobile development, I'm here to turn your ideas into functional software that empowers your business or project. Let's bring your vision to life through code.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Programing and coding assistance</h2>
+          <p>Struggling with coding or looking to enhance your programming skills? I'm here to help! Whether you're a beginner or looking to tackle more advanced challenges in C, C++, Java, or Python, I provide one-on-one guidance and support. From understanding the fundamentals to solving complex problems, I'm dedicated to helping you succeed in your coding journey. Let's work together to unlock your coding potential and achieve your goals
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+      <i class="fa-solid fa-snowflake"></i>
+        <h2>Web Development</h2>
+        <p>
+          I specialize in creating captivating and functional websites that leave a lasting impression. With expertise in web technologies and programming languages, I design and develop websites that are not only visually appealing but also responsive and user-friendly. Whether you need a personal blog, an e-commerce platform, or a professional portfolio, I'm here to bring your online presence to life. Let's build a website that reflects your brand and engages your audience effectively.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-chart-simple"></i>
+        <h2>Data analysis and Visualization</h2>
+        <p>
+          Data holds the key to valuable insights, and I'm here to help you unlock its potential. With a strong foundation in Database Management Systems (DBMS) and data analysis tools, I offer services to analyze, interpret, and visualize data. Whether you're seeking to make data-driven decisions, identify trends, or present information effectively, I can assist you. Let's transform raw data into meaningful visuals and actionable insights that drive your business or project forward.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<!-------Portfolio---------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/smart_home.png"/>
+        <div class="layer">
+          <h3>Smart Home Automation</h3>
+          <p>Project Description</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/Amazon_data.png"/>
+        <div class="layer">
+          <h3>Spend Forecast</h3>
+          <p>Project Description</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+        </div>
+
+      </div>
+      <div class="work">
+        <img src="images/school_database.png"/>
+        <div class="layer">
+          <h3>School Managment Systems</h3>
+          <p>Project Description</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+        </div>
+
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-- ------------ Contact -------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>sathishchinnolla124@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>8367334464</p>
+        <div class="social-icons">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-whatsapp"></i></a>
+
+        </div>
+        <a href="images/My_CV.pdf" download class="btn btn2">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required/>
+          <input type="email" name="Email" placeholder="Your Email" required/>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="copyright">
+    <p>copyright © Sathish Chinnolla</p>
+  </div>
+
+</div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+          for(tablink of tablinks)
+            tablink.classList.remove("active-link");
+          for(tabcontent of tabcontents)
+              tabcontent.classList.remove("active-tab");
+
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzuetnb-8R2-MwzMICD_iJz8Cx4glkATTo_YmzgBsZV_NvLfeB6TyjtbMdRdtW53F4U/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+
+</html>
