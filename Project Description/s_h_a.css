@@ -1,0 +1,289 @@
+
+  *{
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+    #Header{
+      width:100%;
+      height:10vh
+
+    }
+    body{
+      background:;
+      color:#fff;
+    }
+    .Container{
+      /* background-color: blue; */
+      background: #262626;
+      padding: 10px 10%;
+      width: 100%;
+      height:10vh;
+      position:fixed;
+      z-index: 2;
+    }
+    .container h1{
+      position:relative;
+    }
+    nav{
+      display:flex;
+      align-items:center;;
+      justify-content:center;
+      flex-wrap: wrap;
+      }
+    nav ul li{
+      display:inline-block;
+      list-style:none;
+      margin: 10px 20px;
+    }
+    nav ul li a{
+      color:#fff;
+      text-decoration:none;
+      font-size:18px;
+      position:relative;
+    }
+      nav ul li a::after{
+      content:'';
+      width:0;
+      height:3px;
+      background:#ff004f;
+      position:absolute;
+      left:0;
+      bottom:-6px;
+      transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+      width:100%;
+    }
+
+  .content{
+    /* background:blue; */
+    margin: 50px 10% 50px 10%;
+    width:auto;
+    height: auto;
+
+    display:block;
+    justify-content: flex-start;
+    padding:20px;
+  }
+
+  .content .abstract{
+    margin-top: 50px;
+  }
+
+  .title{
+    /* background: red; */
+  }
+  .details{
+    margin-top:20px;
+    /* background: brown; */
+  }
+  /* .ap{
+    margin-left: 10px;
+  } */
+  .details p{
+    position:relative;
+    margin-left: 20px;
+
+  }
+
+  .introduction h3{
+    position: relative;
+      margin-top: 50px !important;
+    }
+  .architecture{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    /* background: black; */
+
+  }
+  .arc{
+    padding:30px;
+  }
+  .arc h3{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    margin-top: 50px;
+  }
+
+  .arc_img{
+
+    width:50%;
+    border-radius: 10px;
+
+  }
+ .sh {
+     /* background: yellow; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+    padding:10px;
+    position: relative;
+    margin-top: 50px;
+
+  }
+
+  .s {
+    /* display:flex; */
+    width:50%;
+    /* background: black; */
+  }
+  .h ul{
+    /* background:orange; */
+
+    /* display:flex; */
+    position: relative;
+    margin-right:-1px;;
+    width:50%;
+
+  }
+
+  .multi-media{
+    /* background: pink; */
+    padding:30px;
+
+  }
+  .content .multi-media {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 50px;
+    /* background: grey; */
+    padding:30px;
+  }
+
+  .pic{
+    /* background: yellow; */
+    width:50%;
+
+  }
+  .pic {
+    display:inline-block;
+  }
+  .pic h3{
+    position: relative;
+    margin-left:30%;
+    margin-bottom: 50px;
+  }
+  .carousel-inner{
+    /* background: red; */
+  }
+  .carousel-inner img {
+  width: 100%;
+  height:500px; /* Adjust this value as needed */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+  .video{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* background: orange; */
+    width:50%;
+    padding:10px;
+    margin-top: 50px;
+  }
+  .video h3{
+    position:relative;
+    margin-bottom: 30px;
+  }
+
+
+
+.content  .downloads{
+    /* background:black; */
+    margin-top: 50px;
+  }
+
+  .content .Btn{
+    margin-top:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* background-color:red; */
+  }
+  .copy{
+
+    color:#ccc;
+    background: #262626;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  nav .fas{
+    display:none;
+  }
+  nav .project_d{
+    display:none;
+  }
+  @media only screen and (max-width:700px){
+
+      nav .project_d{
+        display: inline;
+        margin-right: 50px;
+      }
+    nav{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    nav .fas{
+
+      display:block;
+    }
+
+    nav ul{
+      background: #ff004f;
+      position: fixed;
+      top:0;
+      right:-200px;
+      width:200px;
+      height:100vh;
+      padding-top: 50px;
+      z-index: 2;
+      transition: right 0.5s;
+    }
+    nav ul li{
+      display:block;
+      margin:25px;
+      font-size:24px;
+    }
+
+    nav ul .fas{
+      position:absolute;
+      top:25px;
+      left:25px;
+      cursor:pointer;
+    }
+    .arc_img{
+
+      width:100%;
+      border-radius: 10px;
+
+    }
+    .pic{
+      width:100%;
+    }
+    .pic h3{
+      position: relative;
+      margin-left: 20%;
+    }
+    .carousel-inner img {
+    width: 300px;
+    height:300px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+    .video{
+      width:100%;
+    }
+
+  }
