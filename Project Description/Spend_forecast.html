@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="../style.css"> -->
+    <title>Hello,world</title>
+    <script src="https://kit.fontawesome.com/60a165d566.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="common.css">
+
+  </head>
+  <body>
+    <div id="Header">
+
+      <div class="Container">
+
+        <nav>
+          <div class="project_d">
+            <h1>Project Description</h1>
+          </div>
+          <ul id="sidemenu">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#portfolio">Portfolio</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+        </div>
+      </div>
+      <div class="content">
+
+        <div class="title">
+          <div>
+            <h1>Spend Forecast</h1>
+          </div>
+          </div>
+
+          <div class="details">
+            <div class="abstract"><h3>Abstract:</h3><p>Smart Home Automation represents a significant step towards creating more efficient, secure, and convenient living spaces. This project focuses on the design and implementation of a comprehensive home automation system that integrates various smart devices to enhance the user experience. By leveraging technologies such as IoT (Internet of Things), wireless communication, and cloud computing, the system allows homeowners to remotely monitor and control their household appliances, lighting, security systems, and environmental sensors through a centralized application.
+
+The system's key features include real-time monitoring, automated scheduling, and energy management, which contribute to reducing energy consumption and enhancing overall home security. The integration of voice control and mobile applications provides users with easy access to manage their homes from anywhere, making daily routines more efficient and tailored to individual preferences. This project aims to demonstrate the practical application of modern technologies in transforming traditional homes into smart, interconnected environments, offering a glimpse into the future of residential living.</p></div>
+            <div class="introduction"><h3>Introduction:</h3><p>In today's fast-paced world, the concept of smart homes has rapidly gained popularity, transforming the way we interact with our living spaces. A Smart Home Automation system brings together cutting-edge technologies to create a seamless and intelligent environment that enhances comfort, convenience, and security. By integrating various home devices—such as lighting, heating, appliances, and security systems—into a centralized control system, smart homes allow users to manage their household functions with ease, whether they are at home or away.
+
+<br/><br/>This project delves into the design and implementation of a Smart Home Automation system that leverages the power of the Internet of Things (IoT), wireless communication, and cloud computing. The system provides users with real-time control and monitoring of their home devices through a user-friendly interface, enabling them to automate daily routines, optimize energy usage, and ensure the safety of their homes. With the increasing availability of smart devices and the growing demand for sustainable living, this project demonstrates how technology can be harnessed to create more efficient and responsive living spaces, ultimately improving the quality of life.</p></div>
+            <div class="arc" ><h3>Architecture</h3>
+              <div class="architecture">
+                <img src="../images/arc_img.png"  class ="arc_img" alt="Architecture_img">
+              </div>
+            </div>
+          </div>
+
+          <div class="sh">
+            <div class="s"><h3>SoftwareRequirements:</h3>
+              <ul>
+                <li>Andriod Studios</li>
+                <li>Andriod Studios</li>
+                <li>Andriod Studios</li>
+              </ul>
+            </div>
+            <div class="h"><h3>HardwareRequirements:</h3>
+              <ul>
+                <li>Andriod Studios</li>
+                <li>Andriod Studios</li>
+                <li>Andriod Studios</li>
+              </ul>
+            </div>
+          </div>
+          <div class ="multi-media">
+            <h3>Project Pictures:</h3>
+            <div class="pic" >
+              <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+              <img src="../images/Amazon_data.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+              <img src="../images/sathish.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+              <img src="../images/smart_home.png" class="d-block w-100" alt="...">
+              </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              </button>
+              </div>
+            </div>
+            <div class="video"> <h3>Project video</h3><h2>uploading soon..</h2></div>
+
+          </div>
+          <div class="downloads">
+            <p><strong>App link:</strong></p>
+            <p><strong>Gitub link:</strong></p>
+            <p><strong>PPT Download:</strong></p>
+            <p><strong>Documentation Download:</strong></p>
+          </div>
+          <div class="Btn">
+            <button onClick="window.location.href='../index.html#contact'" >Feedback</button>
+          </div>
+      </div>
+      <div class="copy right">
+        <p>copy right © Sathish Chinnolla</p>
+      </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
